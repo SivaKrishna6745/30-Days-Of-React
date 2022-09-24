@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    width: 60rem;
+}
+
+.each-country {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.country-name {
+    width: 6rem;
+}
+
+.bar-div {
+    flex: 1 0 auto;
+    max-width: 70%;
+    height: 25px;
+}
+
+.bar {
+    height: 100%;
+    background-color: rgb(254, 157, 14);
+    border-radius: 0.15rem;
+}
+
+.population-count {
+    flex-grow: 1;
+    max-width: 10rem;
+}
