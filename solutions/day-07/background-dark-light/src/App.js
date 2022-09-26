@@ -6,9 +6,13 @@ function App() {
     const changeBackground = () => {
         setBackground((prev) => !prev);
     };
-    const style = background ? "#243546" : "#d4e5f6";
+    const bgStyle = background ? "#243546" : "#d4e5f6";
+    const fontStyle = background ? "#d4e5f6" : "#243546";
     return (
-        <div className="App" style={{ backgroundColor: style }}>
+        <div
+            className="App"
+            style={{ backgroundColor: bgStyle, color: fontStyle }}
+        >
             <h1>Welcome to 30 Days of React</h1>
             <button onClick={changeBackground}>dark-mode</button>
             <p>
